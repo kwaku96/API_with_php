@@ -35,7 +35,7 @@ if($num > 0){
             "category_name" => $category_name
         );
 
-        array_push($products_arr["records"],$product_item);
+        array_push($products_arr,$product_item);
     }
 
     echo json_encode($products_arr);
